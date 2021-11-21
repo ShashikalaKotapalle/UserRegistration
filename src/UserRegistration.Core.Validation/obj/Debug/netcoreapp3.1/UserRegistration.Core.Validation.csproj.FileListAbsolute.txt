@@ -1,0 +1,8 @@
+C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Validation\bin\Debug\netcoreapp3.1\UserRegistration.Core.Validation.deps.json
+C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Validation\bin\Debug\netcoreapp3.1\UserRegistration.Core.Validation.dll
+C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Validation\bin\Debug\netcoreapp3.1\UserRegistration.Core.Validation.pdb
+C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Validation\obj\Debug\netcoreapp3.1\UserRegistration.Core.Validation.AssemblyInfoInputs.cache
+C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Validation\obj\Debug\netcoreapp3.1\UserRegistration.Core.Validation.AssemblyInfo.cs
+C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Validation\obj\Debug\netcoreapp3.1\UserRegistration.Core.Validation.csproj.CoreCompileInputs.cache
+C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Validation\obj\Debug\netcoreapp3.1\UserRegistration.Core.Validation.dll
+C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Validation\obj\Debug\netcoreapp3.1\UserRegistration.Core.Validation.pdb

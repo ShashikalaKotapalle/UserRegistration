@@ -1,0 +1,62 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "UserRegistration.Core.Interfaces/1.0.0": {
+        "dependencies": {
+          "UserRegistration.Core.Models": "1.0.0"
+        },
+        "runtime": {
+          "UserRegistration.Core.Interfaces.dll": {}
+        }
+      },
+      "UserRegistration.Core.Enums/1.0.0": {
+        "dependencies": {
+          "UserRegistration.Core.Extensions": "1.0.0"
+        },
+        "runtime": {
+          "UserRegistration.Core.Enums.dll": {}
+        }
+      },
+      "UserRegistration.Core.Extensions/1.0.0": {
+        "runtime": {
+          "UserRegistration.Core.Extensions.dll": {}
+        }
+      },
+      "UserRegistration.Core.Models/1.0.0": {
+        "dependencies": {
+          "UserRegistration.Core.Enums": "1.0.0"
+        },
+        "runtime": {
+          "UserRegistration.Core.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "UserRegistration.Core.Interfaces/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UserRegistration.Core.Enums/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UserRegistration.Core.Extensions/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "UserRegistration.Core.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

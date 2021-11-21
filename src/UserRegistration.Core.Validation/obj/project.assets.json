@@ -1,0 +1,317 @@
+{
+  "version": 3,
+  "targets": {
+    "net5.0": {
+      "FluentValidation/10.3.4": {
+        "type": "package",
+        "compile": {
+          "lib/net5.0/FluentValidation.dll": {}
+        },
+        "runtime": {
+          "lib/net5.0/FluentValidation.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "2.1.0"
+        },
+        "compile": {
+          "lib/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.dll": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {}
+        },
+        "build": {
+          "buildTransitive/netcoreapp3.1/_._": {}
+        }
+      },
+      "NetCore.AutoRegisterDi/2.1.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "2.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/NetCore.AutoRegisterDi.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/NetCore.AutoRegisterDi.dll": {}
+        }
+      },
+      "UserRegistration.Core.Enums/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "UserRegistration.Core.Extensions": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserRegistration.Core.Enums.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserRegistration.Core.Enums.dll": {}
+        }
+      },
+      "UserRegistration.Core.Extensions/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/UserRegistration.Core.Extensions.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserRegistration.Core.Extensions.dll": {}
+        }
+      },
+      "UserRegistration.Core.Interfaces/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "UserRegistration.Core.Models": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserRegistration.Core.Interfaces.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserRegistration.Core.Interfaces.dll": {}
+        }
+      },
+      "UserRegistration.Core.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "UserRegistration.Core.Enums": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserRegistration.Core.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserRegistration.Core.Models.dll": {}
+        }
+      },
+      "UserRegistration.Core.Services/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "FluentValidation": "10.3.4",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "6.0.0",
+          "NetCore.AutoRegisterDi": "2.1.0",
+          "UserRegistration.Core.Enums": "1.0.0",
+          "UserRegistration.Core.Interfaces": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/UserRegistration.Core.Services.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/UserRegistration.Core.Services.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FluentValidation/10.3.4": {
+      "sha512": "hsGRtnhTlCrRbxIOkKp6rCBtkq3UV0i31ckcJtd5j1i99zqLgbQGcbxK0SMU63DIto94f++uIdRpoycu8ySnDQ==",
+      "type": "package",
+      "path": "fluentvalidation/10.3.4",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "fluent-validation-icon.png",
+        "fluentvalidation.10.3.4.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection/2.1.0": {
+      "sha512": "gqQviLfuA31PheEGi+XJoZc1bc9H9RsPa9Gq9XuDct7XGWSR9eVXjK5Sg7CSUPhTFHSuxUFY12wcTYLZ4zM1hg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.2.1.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/6.0.0": {
+      "sha512": "xlzi2IYREJH3/m6+lUrQlujzX8wDitm4QGnUu6kUXTQAWPuZY8i+ticFJbzfqaetLA6KR/rO6Ew/HuYD+bxifg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/6.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/netcoreapp3.1/_._",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net461/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "NetCore.AutoRegisterDi/2.1.0": {
+      "sha512": "loGy3NdGb0NT/ufvdFRRstQrtiEoA8XhD0iwrV/egRlB00v/t5wbty6sBgaTgEUsz5da2a/5yGRTxnrNpli9KQ==",
+      "type": "package",
+      "path": "netcore.autoregisterdi/2.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard2.0/NetCore.AutoRegisterDi.dll",
+        "lib/netstandard2.0/NetCore.AutoRegisterDi.xml",
+        "netcore.autoregisterdi.2.1.0.nupkg.sha512",
+        "netcore.autoregisterdi.nuspec"
+      ]
+    },
+    "UserRegistration.Core.Enums/1.0.0": {
+      "type": "project",
+      "path": "../UserRegistration.Core.Enums/UserRegistration.Core.Enums.csproj",
+      "msbuildProject": "../UserRegistration.Core.Enums/UserRegistration.Core.Enums.csproj"
+    },
+    "UserRegistration.Core.Extensions/1.0.0": {
+      "type": "project",
+      "path": "../UserRegistration.Core.Extensions/UserRegistration.Core.Extensions.csproj",
+      "msbuildProject": "../UserRegistration.Core.Extensions/UserRegistration.Core.Extensions.csproj"
+    },
+    "UserRegistration.Core.Interfaces/1.0.0": {
+      "type": "project",
+      "path": "../UserRegistration.Core.Interfaces/UserRegistration.Core.Interfaces.csproj",
+      "msbuildProject": "../UserRegistration.Core.Interfaces/UserRegistration.Core.Interfaces.csproj"
+    },
+    "UserRegistration.Core.Models/1.0.0": {
+      "type": "project",
+      "path": "../UserRegistration.Core.Models/UserRegistration.Core.Models.csproj",
+      "msbuildProject": "../UserRegistration.Core.Models/UserRegistration.Core.Models.csproj"
+    },
+    "UserRegistration.Core.Services/1.0.0": {
+      "type": "project",
+      "path": "../UserRegistration.Core.Services/UserRegistration.Core.Services.csproj",
+      "msbuildProject": "../UserRegistration.Core.Services/UserRegistration.Core.Services.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net5.0": [
+      "FluentValidation >= 10.3.4",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 6.0.0",
+      "NetCore.AutoRegisterDi >= 2.1.0",
+      "UserRegistration.Core.Interfaces >= 1.0.0",
+      "UserRegistration.Core.Models >= 1.0.0",
+      "UserRegistration.Core.Services >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Validation\\UserRegistration.Core.Validation.csproj",
+      "projectName": "UserRegistration.Core.Validation",
+      "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Validation\\UserRegistration.Core.Validation.csproj",
+      "packagesPath": "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Validation\\obj\\",
+      "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\shashikala.kotapalle\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net5.0"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://portal-drs.pkgs.visualstudio.com/_packaging/e-Marker-Nuget/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "projectReferences": {
+            "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\UserRegistration.Core.Interfaces.csproj": {
+              "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\UserRegistration.Core.Interfaces.csproj"
+            },
+            "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Models\\UserRegistration.Core.Models.csproj": {
+              "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Models\\UserRegistration.Core.Models.csproj"
+            },
+            "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Services\\UserRegistration.Core.Services.csproj": {
+              "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Services\\UserRegistration.Core.Services.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net5.0": {
+        "targetAlias": "net5.0",
+        "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[10.3.4, )"
+          },
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[6.0.0, )"
+          },
+          "NetCore.AutoRegisterDi": {
+            "target": "Package",
+            "version": "[2.1.0, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.301\\RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

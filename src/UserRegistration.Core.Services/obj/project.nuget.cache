@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "hEFjx4DnvfcnS4znC1rC4HxzdmH9rjHfxlS8EQeGxmLgNL8VN1jQMFyLx1W5kFHklqhOGqxhd22D2L69atKVOA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Services\\UserRegistration.Core.Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",
+    "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\2.1.0\\microsoft.extensions.dependencyinjection.2.1.0.nupkg.sha512",
+    "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",
+    "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\netcore.autoregisterdi\\2.1.0\\netcore.autoregisterdi.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}
