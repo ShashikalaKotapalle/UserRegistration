@@ -1,8 +1,0 @@
-C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Interfaces\bin\Debug\netcoreapp3.1\UserRegistration.Core.Interfaces.deps.json
-C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Interfaces\bin\Debug\netcoreapp3.1\UserRegistration.Core.Interfaces.dll
-C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Interfaces\bin\Debug\netcoreapp3.1\UserRegistration.Core.Interfaces.pdb
-C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Interfaces\obj\Debug\netcoreapp3.1\UserRegistration.Core.Interfaces.AssemblyInfoInputs.cache
-C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Interfaces\obj\Debug\netcoreapp3.1\UserRegistration.Core.Interfaces.AssemblyInfo.cs
-C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Interfaces\obj\Debug\netcoreapp3.1\UserRegistration.Core.Interfaces.csproj.CoreCompileInputs.cache
-C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Interfaces\obj\Debug\netcoreapp3.1\UserRegistration.Core.Interfaces.dll
-C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Interfaces\obj\Debug\netcoreapp3.1\UserRegistration.Core.Interfaces.pdb

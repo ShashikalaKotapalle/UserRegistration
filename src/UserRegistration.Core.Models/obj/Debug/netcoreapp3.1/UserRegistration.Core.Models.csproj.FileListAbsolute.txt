@@ -1,9 +1,0 @@
-C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Models\bin\Debug\netcoreapp3.1\UserRegistration.Core.Models.deps.json
-C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Models\bin\Debug\netcoreapp3.1\UserRegistration.Core.Models.dll
-C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Models\bin\Debug\netcoreapp3.1\UserRegistration.Core.Models.pdb
-C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Models\obj\Debug\netcoreapp3.1\UserRegistration.Core.Models.csproj.AssemblyReference.cache
-C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Models\obj\Debug\netcoreapp3.1\UserRegistration.Core.Models.AssemblyInfoInputs.cache
-C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Models\obj\Debug\netcoreapp3.1\UserRegistration.Core.Models.AssemblyInfo.cs
-C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Models\obj\Debug\netcoreapp3.1\UserRegistration.Core.Models.csproj.CoreCompileInputs.cache
-C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Models\obj\Debug\netcoreapp3.1\UserRegistration.Core.Models.dll
-C:\Users\shashikala.kotapalle\source\repos\UserRegistration.Core.Models\obj\Debug\netcoreapp3.1\UserRegistration.Core.Models.pdb
