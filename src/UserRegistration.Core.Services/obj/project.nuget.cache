@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "hEFjx4DnvfcnS4znC1rC4HxzdmH9rjHfxlS8EQeGxmLgNL8VN1jQMFyLx1W5kFHklqhOGqxhd22D2L69atKVOA==",
+  "dgSpecHash": "hr2FnY7vKf4mcXGDSvw6w54xgp6jE+RChbRw59j0366vNbRObV948z1nRqGejsy5qFBTVmEOxenG9TCCewtBwg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Services\\UserRegistration.Core.Services.csproj",
+  "projectFilePath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Services\\UserRegistration.Core.Services.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\fluentvalidation\\10.3.4\\fluentvalidation.10.3.4.nupkg.sha512",
     "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\2.1.0\\microsoft.extensions.dependencyinjection.2.1.0.nupkg.sha512",

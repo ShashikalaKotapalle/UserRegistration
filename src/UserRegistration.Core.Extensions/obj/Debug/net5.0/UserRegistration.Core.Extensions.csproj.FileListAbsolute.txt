@@ -21,3 +21,15 @@ C:\Users\shashikala.kotapalle\source\repos\Shashi\UserRegistration\src\UserRegis
 C:\Users\shashikala.kotapalle\source\repos\Shashi\UserRegistration\src\UserRegistration.Core.Extensions\obj\Debug\net5.0\UserRegistration.Core.Extensions.dll
 C:\Users\shashikala.kotapalle\source\repos\Shashi\UserRegistration\src\UserRegistration.Core.Extensions\obj\Debug\net5.0\ref\UserRegistration.Core.Extensions.dll
 C:\Users\shashikala.kotapalle\source\repos\Shashi\UserRegistration\src\UserRegistration.Core.Extensions\obj\Debug\net5.0\UserRegistration.Core.Extensions.pdb
+C:\Users\shashikala.kotapalle\source\UserRegistration\src\UserRegistration.Core.Extensions\bin\Debug\net5.0\UserRegistration.Core.Extensions.deps.json
+C:\Users\shashikala.kotapalle\source\UserRegistration\src\UserRegistration.Core.Extensions\bin\Debug\net5.0\UserRegistration.Core.Extensions.dll
+C:\Users\shashikala.kotapalle\source\UserRegistration\src\UserRegistration.Core.Extensions\bin\Debug\net5.0\ref\UserRegistration.Core.Extensions.dll
+C:\Users\shashikala.kotapalle\source\UserRegistration\src\UserRegistration.Core.Extensions\bin\Debug\net5.0\UserRegistration.Core.Extensions.pdb
+C:\Users\shashikala.kotapalle\source\UserRegistration\src\UserRegistration.Core.Extensions\obj\Debug\net5.0\UserRegistration.Core.Extensions.csproj.AssemblyReference.cache
+C:\Users\shashikala.kotapalle\source\UserRegistration\src\UserRegistration.Core.Extensions\obj\Debug\net5.0\UserRegistration.Core.Extensions.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\shashikala.kotapalle\source\UserRegistration\src\UserRegistration.Core.Extensions\obj\Debug\net5.0\UserRegistration.Core.Extensions.AssemblyInfoInputs.cache
+C:\Users\shashikala.kotapalle\source\UserRegistration\src\UserRegistration.Core.Extensions\obj\Debug\net5.0\UserRegistration.Core.Extensions.AssemblyInfo.cs
+C:\Users\shashikala.kotapalle\source\UserRegistration\src\UserRegistration.Core.Extensions\obj\Debug\net5.0\UserRegistration.Core.Extensions.csproj.CoreCompileInputs.cache
+C:\Users\shashikala.kotapalle\source\UserRegistration\src\UserRegistration.Core.Extensions\obj\Debug\net5.0\UserRegistration.Core.Extensions.dll
+C:\Users\shashikala.kotapalle\source\UserRegistration\src\UserRegistration.Core.Extensions\obj\Debug\net5.0\ref\UserRegistration.Core.Extensions.dll
+C:\Users\shashikala.kotapalle\source\UserRegistration\src\UserRegistration.Core.Extensions\obj\Debug\net5.0\UserRegistration.Core.Extensions.pdb

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+mI839VvEAayXVG+kP+N5RHvlx0eTcvUP2yKChjVuW9KwimTUzEnl/eYqTPEzyoqQN4Txr3PKtsiZNPfWmWzOw==",
+  "dgSpecHash": "QNoKmLyMq5riw/1SMIPVtAW1MNPSgOjkRdtTx2WeUbbhgMydFqaa8PXr5yeS0uZZe7F5u3FJhOnSgbMZfd2i9Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\tests\\UserRegistration.Core.Services.UnitTests\\UserRegistration.Core.Services.UnitTests.csproj",
+  "projectFilePath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\tests\\UserRegistration.Core.Services.UnitTests\\UserRegistration.Core.Services.UnitTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\autofixture\\4.17.0\\autofixture.4.17.0.nupkg.sha512",
     "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\castle.core\\4.4.0\\castle.core.4.4.0.nupkg.sha512",

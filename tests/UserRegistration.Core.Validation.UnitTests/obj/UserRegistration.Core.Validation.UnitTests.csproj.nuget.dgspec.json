@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\tests\\UserRegistration.Core.Validation.UnitTests\\UserRegistration.Core.Validation.UnitTests.csproj": {}
+    "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\tests\\UserRegistration.Core.Validation.UnitTests\\UserRegistration.Core.Validation.UnitTests.csproj": {}
   },
   "projects": {
-    "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Enums\\UserRegistration.Core.Enums.csproj": {
+    "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Enums\\UserRegistration.Core.Enums.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Enums\\UserRegistration.Core.Enums.csproj",
+        "projectUniqueName": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Enums\\UserRegistration.Core.Enums.csproj",
         "projectName": "UserRegistration.Core.Enums",
-        "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Enums\\UserRegistration.Core.Enums.csproj",
+        "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Enums\\UserRegistration.Core.Enums.csproj",
         "packagesPath": "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Enums\\obj\\",
+        "outputPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Enums\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -34,8 +34,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Extensions\\UserRegistration.Core.Extensions.csproj": {
-                "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Extensions\\UserRegistration.Core.Extensions.csproj"
+              "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Extensions\\UserRegistration.Core.Extensions.csproj": {
+                "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Extensions\\UserRegistration.Core.Extensions.csproj"
               }
             }
           }
@@ -68,14 +68,14 @@
         }
       }
     },
-    "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Extensions\\UserRegistration.Core.Extensions.csproj": {
+    "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Extensions\\UserRegistration.Core.Extensions.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Extensions\\UserRegistration.Core.Extensions.csproj",
+        "projectUniqueName": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Extensions\\UserRegistration.Core.Extensions.csproj",
         "projectName": "UserRegistration.Core.Extensions",
-        "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Extensions\\UserRegistration.Core.Extensions.csproj",
+        "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Extensions\\UserRegistration.Core.Extensions.csproj",
         "packagesPath": "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Extensions\\obj\\",
+        "outputPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Extensions\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -128,14 +128,14 @@
         }
       }
     },
-    "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\UserRegistration.Core.Interfaces.csproj": {
+    "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\UserRegistration.Core.Interfaces.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\UserRegistration.Core.Interfaces.csproj",
+        "projectUniqueName": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\UserRegistration.Core.Interfaces.csproj",
         "projectName": "UserRegistration.Core.Interfaces",
-        "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\UserRegistration.Core.Interfaces.csproj",
+        "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\UserRegistration.Core.Interfaces.csproj",
         "packagesPath": "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\obj\\",
+        "outputPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -158,8 +158,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Models\\UserRegistration.Core.Models.csproj": {
-                "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Models\\UserRegistration.Core.Models.csproj"
+              "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Models\\UserRegistration.Core.Models.csproj": {
+                "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Models\\UserRegistration.Core.Models.csproj"
               }
             }
           }
@@ -192,14 +192,14 @@
         }
       }
     },
-    "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Models\\UserRegistration.Core.Models.csproj": {
+    "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Models\\UserRegistration.Core.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Models\\UserRegistration.Core.Models.csproj",
+        "projectUniqueName": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Models\\UserRegistration.Core.Models.csproj",
         "projectName": "UserRegistration.Core.Models",
-        "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Models\\UserRegistration.Core.Models.csproj",
+        "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Models\\UserRegistration.Core.Models.csproj",
         "packagesPath": "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Models\\obj\\",
+        "outputPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Models\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -222,8 +222,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Enums\\UserRegistration.Core.Enums.csproj": {
-                "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Enums\\UserRegistration.Core.Enums.csproj"
+              "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Enums\\UserRegistration.Core.Enums.csproj": {
+                "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Enums\\UserRegistration.Core.Enums.csproj"
               }
             }
           }
@@ -256,14 +256,14 @@
         }
       }
     },
-    "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Services\\UserRegistration.Core.Services.csproj": {
+    "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Services\\UserRegistration.Core.Services.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Services\\UserRegistration.Core.Services.csproj",
+        "projectUniqueName": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Services\\UserRegistration.Core.Services.csproj",
         "projectName": "UserRegistration.Core.Services",
-        "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Services\\UserRegistration.Core.Services.csproj",
+        "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Services\\UserRegistration.Core.Services.csproj",
         "packagesPath": "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Services\\obj\\",
+        "outputPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Services\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -286,11 +286,11 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Enums\\UserRegistration.Core.Enums.csproj": {
-                "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Enums\\UserRegistration.Core.Enums.csproj"
+              "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Enums\\UserRegistration.Core.Enums.csproj": {
+                "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Enums\\UserRegistration.Core.Enums.csproj"
               },
-              "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\UserRegistration.Core.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\UserRegistration.Core.Interfaces.csproj"
+              "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\UserRegistration.Core.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\UserRegistration.Core.Interfaces.csproj"
               }
             }
           }
@@ -337,14 +337,14 @@
         }
       }
     },
-    "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Validation\\UserRegistration.Core.Validation.csproj": {
+    "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Validation\\UserRegistration.Core.Validation.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Validation\\UserRegistration.Core.Validation.csproj",
+        "projectUniqueName": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Validation\\UserRegistration.Core.Validation.csproj",
         "projectName": "UserRegistration.Core.Validation",
-        "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Validation\\UserRegistration.Core.Validation.csproj",
+        "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Validation\\UserRegistration.Core.Validation.csproj",
         "packagesPath": "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Validation\\obj\\",
+        "outputPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Validation\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -367,14 +367,14 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\UserRegistration.Core.Interfaces.csproj": {
-                "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\UserRegistration.Core.Interfaces.csproj"
+              "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\UserRegistration.Core.Interfaces.csproj": {
+                "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\UserRegistration.Core.Interfaces.csproj"
               },
-              "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Models\\UserRegistration.Core.Models.csproj": {
-                "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Models\\UserRegistration.Core.Models.csproj"
+              "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Models\\UserRegistration.Core.Models.csproj": {
+                "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Models\\UserRegistration.Core.Models.csproj"
               },
-              "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Services\\UserRegistration.Core.Services.csproj": {
-                "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Services\\UserRegistration.Core.Services.csproj"
+              "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Services\\UserRegistration.Core.Services.csproj": {
+                "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Services\\UserRegistration.Core.Services.csproj"
               }
             }
           }
@@ -421,14 +421,14 @@
         }
       }
     },
-    "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\tests\\UserRegistration.Core.Validation.UnitTests\\UserRegistration.Core.Validation.UnitTests.csproj": {
+    "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\tests\\UserRegistration.Core.Validation.UnitTests\\UserRegistration.Core.Validation.UnitTests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\tests\\UserRegistration.Core.Validation.UnitTests\\UserRegistration.Core.Validation.UnitTests.csproj",
+        "projectUniqueName": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\tests\\UserRegistration.Core.Validation.UnitTests\\UserRegistration.Core.Validation.UnitTests.csproj",
         "projectName": "UserRegistration.Core.Validation.UnitTests",
-        "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\tests\\UserRegistration.Core.Validation.UnitTests\\UserRegistration.Core.Validation.UnitTests.csproj",
+        "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\tests\\UserRegistration.Core.Validation.UnitTests\\UserRegistration.Core.Validation.UnitTests.csproj",
         "packagesPath": "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\tests\\UserRegistration.Core.Validation.UnitTests\\obj\\",
+        "outputPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\tests\\UserRegistration.Core.Validation.UnitTests\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -451,8 +451,8 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Validation\\UserRegistration.Core.Validation.csproj": {
-                "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Validation\\UserRegistration.Core.Validation.csproj"
+              "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Validation\\UserRegistration.Core.Validation.csproj": {
+                "projectPath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Validation\\UserRegistration.Core.Validation.csproj"
               }
             }
           }

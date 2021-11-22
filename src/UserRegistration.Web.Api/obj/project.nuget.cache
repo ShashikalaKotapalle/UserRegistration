@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "88VzmQWz3RJ139k2xhjZGWhtkIrFmdN7qmWC/LLS3+lbRW+dxbjaw23W9wb6+3CteSzBE8pHpktzSCJoQ7nEgA==",
+  "dgSpecHash": "vj4ZqAmQEybVlEbnpHA3n0UZUX5IxNv/xMVwhPBUamRAuj4+nYPliPhewXXHxipmxy4yTalulkRqTh8SdGFSSA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Web.Api\\UserRegistration.Web.Api.csproj",
+  "projectFilePath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Web.Api\\UserRegistration.Web.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\8.1.1\\automapper.extensions.microsoft.dependencyinjection.8.1.1.nupkg.sha512",

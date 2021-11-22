@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KGI3inhuzFB8rqQyXkMEaTlpzhG0QUARWw1Oscbpq9ZKkRzqzOLkdWP/A+bJ/L4Unrrby9JnQFjqIoXdql18/A==",
+  "dgSpecHash": "mshsKVfWtYmFFShEiWnCEWg+Nl35ib/MuRdujrT5i8G2FuWnzvHRMXFsrTKdA+992b033k/dKklWzPvGJU8N/g==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Infrastructure.Data\\UserRegistration.Infrastructure.Data.csproj",
+  "projectFilePath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Infrastructure.Data\\UserRegistration.Infrastructure.Data.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
     "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\microsoft.aspnetcore.http.abstractions\\2.2.0\\microsoft.aspnetcore.http.abstractions.2.2.0.nupkg.sha512",

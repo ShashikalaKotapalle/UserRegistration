@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "GWlCUqlJq06r3WdL20ssz2HjsV4bl3IK6aYzkA99h20QCKTYD0Rqi5HQWYdKzwUQJ/m31w4yigZ5EEnNyn0xGA==",
+  "dgSpecHash": "/Wk6s6BY+o6MgYikLFsq/kHKT+Oju3PxQ96aXCyMM40XcgyB9KSdV2U3on2sN6UjJ11dO3hAql4++fpYI3JUXg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\UserRegistration.Core.Interfaces.csproj",
+  "projectFilePath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Interfaces\\UserRegistration.Core.Interfaces.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

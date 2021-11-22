@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MJ7b4V63MPOoXRw2t7hQDh9FyIwYySTASkHVSWrNXkD/zEtW05OPPFT/L/Up3X22Nt2UfH8Z6yQnkP0EbufKDA==",
+  "dgSpecHash": "MMMbiToiFyAlZyE6Sgh4pKnw0cel3r26gHLidq4Z8xEsWsb0B/H3T2maKt3Sas+5ZKdea+oNQ5IXwb8k057jzA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\src\\UserRegistration.Core.Enums\\UserRegistration.Core.Enums.csproj",
+  "projectFilePath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\src\\UserRegistration.Core.Enums\\UserRegistration.Core.Enums.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

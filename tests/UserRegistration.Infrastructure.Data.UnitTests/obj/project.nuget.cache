@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3niwwah0DupSVgctoZ/IddBap7VIUb5vDtJMUx/WZA8QDOcmu6fGtl6ckt6wti8/BdUJgvyjjU+bmkSjtZEEsg==",
+  "dgSpecHash": "t1FLbBvXHvBAMsxaBCOjrU76F+5KppIOXgiOr6rRDqW28tmrCBkIC0SJinNZBIGc9HGCAKRiNpTo6ItfThuYIg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\shashikala.kotapalle\\source\\repos\\Shashi\\UserRegistration\\tests\\UserRegistration.Infrastructure.Data.UnitTests\\UserRegistration.Infrastructure.Data.IntegrationTests.csproj",
+  "projectFilePath": "C:\\Users\\shashikala.kotapalle\\source\\UserRegistration\\tests\\UserRegistration.Infrastructure.Data.UnitTests\\UserRegistration.Infrastructure.Data.IntegrationTests.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\autofixture\\4.17.0\\autofixture.4.17.0.nupkg.sha512",
     "C:\\Users\\shashikala.kotapalle\\.nuget\\packages\\automapper\\10.1.1\\automapper.10.1.1.nupkg.sha512",
