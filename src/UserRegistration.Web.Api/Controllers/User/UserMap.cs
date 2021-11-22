@@ -7,13 +7,12 @@ namespace UserRegistration.Web.Api.Controllers.User
 	{
 		public UserMap()
 		{
-			CreateMap<UserModel, UsersDto>()
+			CreateMap<UserModel, ResponseDto>()
 				.ForMember(dest => dest.Id, opts => opts.MapFrom(src => src.UserId))
 				.ForMember(dest => dest.UserName, opts => opts.MapFrom(src => src.UserName));
 
 
-			CreateMap<UsersDto, UserModel>()
-				//.ForMember(dest => dest.UserId, opts => opts.MapFrom(src => src.Id))
+			CreateMap<RequestDto, UserModel>()
 				.ForMember(dest => dest.UserName, opts => opts.MapFrom(src => src.UserName));
 
 		}

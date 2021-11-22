@@ -5,5 +5,9 @@
     &lt;TestId&gt;xUnit::9D8F1231-07CB-4E3F-BCB5-3AC47AD75D5F::net5.0::UserRegistration.Infrastructure.Data.IntegrationTests.Repositories.UserRepositoryTests.CreateUserShould&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::F3000511-F4F0-40F1-A19B-765752DB6315::net5.0::UserRegistration.Web.Api.UnitTests.Controllers.User.GetByIdShould.ReturnNoContentWhen_NoUsersExist&lt;/TestId&gt;&#xD;
     &lt;TestId&gt;xUnit::F3000511-F4F0-40F1-A19B-765752DB6315::net5.0::UserRegistration.Web.Api.UnitTests.Controllers.User.GetShould.ReturnNoContentWhen_NoUsersExist&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F3000511-F4F0-40F1-A19B-765752DB6315::net5.0::UserRegistration.Web.Api.UnitTests.Controllers.User.GetByIdShould.ReturnNoFoundWhen_NoUsersExist&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F3000511-F4F0-40F1-A19B-765752DB6315::net5.0::UserRegistration.Web.Api.UnitTests.Controllers.User.GetByIdShould&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F3000511-F4F0-40F1-A19B-765752DB6315::net5.0::UserRegistration.Web.Api.UnitTests.Controllers.User.GetShould&lt;/TestId&gt;&#xD;
+    &lt;TestId&gt;xUnit::F3000511-F4F0-40F1-A19B-765752DB6315::net5.0::UserRegistration.Web.Api.UnitTests.Controllers.User.PostShould&lt;/TestId&gt;&#xD;
   &lt;/TestAncestor&gt;&#xD;
 &lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>

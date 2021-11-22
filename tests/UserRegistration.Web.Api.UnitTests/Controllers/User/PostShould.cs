@@ -40,13 +40,15 @@ namespace UserRegistration.Web.Api.UnitTests.Controllers.User
 		{
 			//Arrange
 			var user = _fixture.Create<UserModel>();
-			var dto = _fixture.Create<UsersDto>();
+			var dto = _fixture.Create<RequestDto>();
 
+			UserModel userInDb = null;
+			_userService.GetUserByName(dto.UserName).Returns(userInDb);
 			_mapper.Map<UserModel>(dto).Returns(user);
 			_userService.CreateUser(user).Returns(user);
 
-			var dtoToReturn = _fixture.Create<UsersDto>();
-			_mapper.Map<UsersDto>(user).Returns(dtoToReturn);
+			var dtoToReturn = _fixture.Create<ResponseDto>();
+			_mapper.Map<ResponseDto>(user).Returns(dtoToReturn);
 
 			//Act
 			var result = await _sut.Post(dto);
@@ -61,17 +63,42 @@ namespace UserRegistration.Web.Api.UnitTests.Controllers.User
 		}
 
 		[Fact]
+		public async void ReturnConflictWhen_UserExists()
+		{
+			//Arrange
+			var user = _fixture.Create<UserModel>();
+			var dto = _fixture.Create<RequestDto>();
+
+			_userService.GetUserByName(dto.UserName).Returns(user);
+			_mapper.Map<UserModel>(dto).Returns(user);
+			_userService.CreateUser(user).Returns(user);
+
+			var dtoToReturn = _fixture.Create<ResponseDto>();
+			_mapper.Map<ResponseDto>(user).Returns(dtoToReturn);
+
+			//Act
+			var result = await _sut.Post(dto);
+
+			//Assert
+			result.Should()
+				.BeAssignableTo<ConflictResult>();
+
+		}
+
+		[Fact]
 		public async void CallService_ToGetAllUsers()
 		{
 			//Arrange
 			var user = _fixture.Create<UserModel>();
-			var dto = _fixture.Create<UsersDto>();
+			var dto = _fixture.Create<RequestDto>();
+			UserModel userInDb = null;
+			_userService.GetUserByName(dto.UserName).Returns(userInDb);
 
 			_mapper.Map<UserModel>(dto).Returns(user);
 			_userService.CreateUser(user).Returns(user);
 
-			var dtoToReturn = _fixture.Create<UsersDto>();
-			_mapper.Map<UsersDto>(user).Returns(dtoToReturn);
+			var dtoToReturn = _fixture.Create<ResponseDto>();
+			_mapper.Map<ResponseDto>(user).Returns(dtoToReturn);
 
 			//Act
 			var result = await _sut.Post(dto);
@@ -86,7 +113,9 @@ namespace UserRegistration.Web.Api.UnitTests.Controllers.User
 			//Arrange
 			var exception = _fixture.Create<Exception>();
 			var user = _fixture.Create<UserModel>();
-			var dto = _fixture.Create<UsersDto>();
+			var dto = _fixture.Create<RequestDto>();
+			UserModel userInDb = null;
+			_userService.GetUserByName(dto.UserName).Returns(userInDb);
 			_mapper.Map<UserModel>(dto).Returns(user);
 
 			_userService.CreateUser(user).Throws(exception);
@@ -110,7 +139,7 @@ namespace UserRegistration.Web.Api.UnitTests.Controllers.User
 			string expectedMessage = UserResources.CreateUserError;
 			var exception = _fixture.Create<Exception>();
 			var user = _fixture.Create<UserModel>();
-			var dto = _fixture.Create<UsersDto>();
+			var dto = _fixture.Create<RequestDto>();
 			_mapper.Map<UserModel>(dto).Returns(user);
 
 			_userService.CreateUser(user).Throws(exception);

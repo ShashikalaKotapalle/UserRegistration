@@ -37,12 +37,10 @@ namespace UserRegistration.Web.Api.Controllers.User
 				var users = await _userService.GetAllUsers();
 				if (users != null)
 				{
-					return Ok(_mapper.Map<List<UsersDto>>(users));
+					return Ok(_mapper.Map<List<ResponseDto>>(users));
 				}
-				else
-				{
-					return StatusCode(StatusCodes.Status204NoContent, UserResources.UsersDoesNotExist);
-				}
+
+				return NotFound(UserResources.UsersDoesNotExist);
 			}
 			catch (Exception e)
 			{
@@ -60,12 +58,10 @@ namespace UserRegistration.Web.Api.Controllers.User
 				var user = await _userService.GetUserById(id);
 				if (user != null)
 				{
-					return Ok(_mapper.Map<UsersDto>(user));
+					return Ok(_mapper.Map<ResponseDto>(user));
 				}
-				else
-				{
-					return StatusCode(StatusCodes.Status204NoContent, UserResources.UsersDoesNotExist);
-				}
+
+				return NotFound(UserResources.UsersDoesNotExist);
 			}
 			catch (Exception e)
 			{
@@ -76,14 +72,20 @@ namespace UserRegistration.Web.Api.Controllers.User
 
 		// POST api/<UsersController>
 		[HttpPost]
-		public async Task<IActionResult> Post([FromBody] UsersDto dto)
+		public async Task<IActionResult> Post([FromBody] RequestDto dto)
 		{
 			try
 			{
+				var userInDb = await _userService.GetUserByName(dto.UserName);
+				if (userInDb != null)
+				{
+					return Conflict();
+				}
+
 				UserModel toAddUser = _mapper.Map<UserModel>(dto);
 				var createdUser = await _userService.CreateUser(toAddUser);
 
-				return Ok(_mapper.Map<UsersDto>(createdUser));
+				return Ok(_mapper.Map<ResponseDto>(createdUser));
 			}
 			catch (Exception e)
 			{
@@ -94,10 +96,16 @@ namespace UserRegistration.Web.Api.Controllers.User
 
 		// PUT api/<UsersController>/5
 		[HttpPut("{id}")]
-		public async Task<IActionResult> Put(int id, [FromBody] UsersDto dto)
+		public async Task<IActionResult> Put(int id, [FromBody] RequestDto dto)
 		{
 			try
 			{
+				var userInDb = await _userService.GetUserByName(dto.UserName);
+				if (userInDb != null)
+				{
+					return Conflict();
+				}
+
 				UserModel user = new UserModel
 				{
 					UserId = id,
@@ -122,6 +130,12 @@ namespace UserRegistration.Web.Api.Controllers.User
 		{
 			try
 			{
+				var userInDb = await _userService.GetUserById(id);
+				if (userInDb == null)
+				{
+					return NotFound(UserResources.UsersDoesNotExist);
+				}
+
 				await _userService.DeleteUserById(id);
 				return Ok(UserResources.DeleteSuccess);
 

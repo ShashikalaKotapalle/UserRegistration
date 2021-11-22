@@ -43,10 +43,10 @@ namespace UserRegistration.Web.Api.UnitTests.Controllers.User
 			//Arrange
 			var users = _fixture.Create<List<UserModel>>();
 
-			var dto = _fixture.Create<List<UsersDto>>();
+			var dto = _fixture.Create<List<ResponseDto>>();
 
 			_userService.GetAllUsers().Returns(users);
-			_mapper.Map<List<UsersDto>>(users).Returns(dto);
+			_mapper.Map<List<ResponseDto>>(users).Returns(dto);
 
 			//Act
 			var result = await _sut.Get();
@@ -66,10 +66,10 @@ namespace UserRegistration.Web.Api.UnitTests.Controllers.User
 			//Arrange
 			var users = _fixture.Create<List<UserModel>>();
 
-			var dto = _fixture.Create<List<UsersDto>>();
+			var dto = _fixture.Create<List<ResponseDto>>();
 
 			_userService.GetAllUsers().Returns(users);
-			_mapper.Map<List<UsersDto>>(users).Returns(dto);
+			_mapper.Map<List<ResponseDto>>(users).Returns(dto);
 
 			//Act
 			await _sut.Get();
@@ -79,7 +79,7 @@ namespace UserRegistration.Web.Api.UnitTests.Controllers.User
 		}
 
 		[Fact]
-		public async void ReturnNoContentWhen_NoUsersExist()
+		public async void ReturnNotFoundWhen_NoUsersExist()
 		{
 			//Arrange
 			List<UserModel> users = null;
@@ -91,18 +91,11 @@ namespace UserRegistration.Web.Api.UnitTests.Controllers.User
 
 			//Assert
 			result.Should()
-				.BeAssignableTo<ObjectResult>()
+				.BeAssignableTo<NotFoundObjectResult>()
 				.Which
 				.Value
 				.Should()
 				.BeEquivalentTo(UserResources.UsersDoesNotExist);
-
-			result.Should()
-				.BeAssignableTo<ObjectResult>()
-				.Which
-				.StatusCode
-				.Should()
-				.Be(StatusCodes.Status204NoContent);
 		}
 
 		[Fact]

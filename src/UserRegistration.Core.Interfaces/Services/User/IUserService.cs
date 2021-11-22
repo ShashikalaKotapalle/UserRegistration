@@ -11,5 +11,6 @@ namespace UserRegistration.Core.Interfaces.Services.User
 		Task<List<UserModel>> GetAllUsers();
 		Task UpdateUser(UserModel user);
 		Task DeleteUserById(int userId);
+		Task<UserModel> GetUserByName(string userName);
 	}
 }

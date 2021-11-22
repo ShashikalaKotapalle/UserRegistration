@@ -81,5 +81,10 @@ namespace UserRegistration.Core.Services.User
 
 			// Auditing
 		}
+
+		public async Task<UserModel> GetUserByName(string userName)
+		{
+			return await _userRepository.GetUserByName(userName);
+		}
 	}
 }
