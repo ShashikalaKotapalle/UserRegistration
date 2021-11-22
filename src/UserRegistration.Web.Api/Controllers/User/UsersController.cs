@@ -76,6 +76,7 @@ namespace UserRegistration.Web.Api.Controllers.User
 		{
 			try
 			{
+				// Check if user already exists
 				var userInDb = await _userService.GetUserByName(dto.UserName);
 				if (userInDb != null)
 				{
@@ -100,22 +101,18 @@ namespace UserRegistration.Web.Api.Controllers.User
 		{
 			try
 			{
-				var userInDb = await _userService.GetUserByName(dto.UserName);
-				if (userInDb != null)
+				// validate and return not found if user does not exist
+				var user = await _userService.GetUserById(id);
+				if (user == null)
 				{
-					return Conflict();
+					return NotFound(UserResources.UsersDoesNotExist);
 				}
 
-				UserModel user = new UserModel
-				{
-					UserId = id,
-					UserName = dto.UserName
-				};
-				await _userService.UpdateUser(user);
+				UserModel userToUpdate = new UserModel {UserId = id, UserName = dto.UserName};
+
+				await _userService.UpdateUser(userToUpdate);
 
 				return Ok(UserResources.UpdateUserSuccess);
-
-				// validate and return No content if User does not exist
 			}
 			catch (Exception e)
 			{
@@ -130,6 +127,7 @@ namespace UserRegistration.Web.Api.Controllers.User
 		{
 			try
 			{
+				// validate and return not found if user does not exist
 				var userInDb = await _userService.GetUserById(id);
 				if (userInDb == null)
 				{
@@ -138,8 +136,6 @@ namespace UserRegistration.Web.Api.Controllers.User
 
 				await _userService.DeleteUserById(id);
 				return Ok(UserResources.DeleteSuccess);
-
-				// validate and return No content if User does not exist
 			}
 			catch (Exception e)
 			{
